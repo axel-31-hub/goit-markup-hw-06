@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <div class="backdrop is-hidden" data-modal> <div class="modal"> <svg data-modal-close class="close-black" width="32px" height="32px"><use 
+    href="./imagen/iconos/symbol-defs.svg#icon-close-black-18dp-2-1-1"
+  ></use></svg>      
+  </div></div>
+  <body>
+    <header class="container border_header">
+      <div class="container menu">
+        <a href="#" class="titulo_pagina">WebStudio</a>
+        <nav class="container navegation__container">
+          <ul class="hero__navegation">
+            <li><a href="./index.html" class="text-menu curret">estudio</a></li>
+            <li>
+              <a href="./portfolio.html" class="text-menu">portafolio</a>
+            </li>
+            <li><a href="#" class="text-menu">contacto</a></li>
+          </ul>
+        </nav>
+
+        <ul class="navegation__contacts">
+          <div class="icono">
+          <li class="sobre"> 
+            <svg  width="16px" height="12px">
+              <use href="./imagen/iconos/symbol-defs.svg#icon-sobre-activable"></use>
+            </svg>           
+            <a href="mailto:info@devstudio.com" class="text-color">
+              info@devstudio.com</a>
+          </li></div>
+          <div class="icono">
+          <li class="telefono_inteligente">
+            <svg  width="10px" height="16px">
+              <use href="./imagen/iconos/symbol-defs.svg#icon-telfono-inteligente"></use>
+            </svg> 
+            <a href="tel:+525555296000" class="text-color">+55 5529 6000</a>
+          </li></div>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <section class="img-fondo">
+        <div class="container__fondo">
+          <h1 class="titulo__hero">SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
+        </div>
+      
+      <button  data-modal-open type ="button" class="button__hero">Solicite nuestro servicio</button>
+    
+      </section>
+
+      <section class="container section">
+        <div class=" item__text">
+          <ul class="about__gallery">
+            <li>
+              <div class="icon__container">
+                <svg class="icon" width="70px" height="70px">
+              <use href="./imagen/iconos/symbol-defs.svg#icon-antena"></use></svg></div>
+              <h3 class="h3">ATENCIÓN A LOS DETALLES</h3>
+              <p class="tes_3">
+                Nos adentramos en todos los detalles y procesos de su negocio,
+                para así desarrollar una solución a su medida.
+              </p>
+            </li> 
+            <li>
+              <div class="icon__container">
+                <svg class="icon "width="70px"height="70px"> 
+              <use href="./imagen/iconos/symbol-defs.svg#icon-reloj"></use></svg></div>              
+              <h3 class="h3">PUNTUALIDAD</h3>
+              <p class="tes_3">
+                Con nosotros, usted puede sentirse seguro y protegido. Un
+                principio importante de la empresa: respetar su tiempo y
+                respetar los plazos acordados.
+              </p></li> 
+            <li>
+              <div class="icon__container" ><svg class="icon"width="70px" height="70px"> 
+              <use href="./imagen/iconos/symbol-defs.svg#icon-diagrama"></use></svg></div>
+              <h3 class="h3">PLANIFICACIÓN</h3>
+              <p class="tes_3">
+                Usted podrá observar y participar en cada fase del desarrollo y
+                aplicación de soluciones.
+              </p></li>
+            <li>
+              <div class="icon__container"><svg class="icon"width="70px" height="70px"> 
+              <use href="./imagen/iconos/symbol-defs.svg#icon-astronauta"></use></svg></div>
+              <h3 class="h3">TEGNOLOGÍA MODERNA</h3>
+              <p class="tes_3">
+                Usamos herramientas innovadoras para resolver las tareas
+                asignadas. Es hora de simplificar los procesos laborales.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="galerry__job " >
+        <div class="container section_3">
+          <h2 class="titulo_2">A qué nos dedicamos</h2>
+          <ul class="about__gallery">
+            <li class="servicio imagen background1">
+            <div class="servicio-titulo"><h3>APLICACIONES DE ESCRITORIO</h3></div> 
+            </li>
+            <li class="servicio imagen background2">
+              <div class="servicio-titulo"><h3>APLICACIONES MÓVILES</h3></div> 
+              </li>
+            </li>
+            <li class="servicio imagen background3">
+              <div class="servicio-titulo"><h3>SOLUCIONES DE DISEÑO</h3></div> 
+              </li>
+        </div>
+      </section>
+      <section class="container_team">
+        <div>
+          <h2 class="team-title">Nuestro Equipo</h2>
+          <ul class="team-list section">
+            <li class="team__box" width="270px">
+              <img
+                src="./imagen/Pablo_Mijango.jpg"
+                alt="pablo mijango"
+                width="270"
+              />
+              <h3 class="team_name">Pablo mijango</h3>
+              <p class="team_name_2">diseñador UI</p>
+              <ul class="iconos__list">
+                <li class="list__iconos">
+                  <svg class="iconos" width="20px" height="20px">
+                    <use
+                      href="./imagen/iconos/symbol-defs.svg#icon-facebook"
+                    ></use>
+                  </svg>
+                </li>
+                <li class="list__iconos">
+                  <svg class="iconos" width="20px" height="20px">
+                    <use
+                      href="./imagen/iconos/symbol-defs.svg#icon-instagram"
+                    ></use>
+                  </svg>
+                </li>
+                <li class="list__iconos">
+                  <svg class="iconos" width="20px" height="20px">
+                    <use
+                      href="./imagen/iconos/symbol-defs.svg#icon-linkedin"
+                    ></use>
+                  </svg>
+                </li>
+                <li class="list__iconos">
+                  <svg class="iconos" width="20px" height="20px">
+                    <use
+                      href="./imagen/iconos/symbol-defs.svg#icon-twitter"
+                    ></use>
+                  </svg>
+                </li>
+              </ul>
+            </li>
+
+            <li class="team__box" width="270px">
+              <img
+                src="./imagen/Andres_Cubos.jpg"
+                alt="andres cubo"
+                width="270"
+              />
+              <h3 class="team_name">Andres Cubos</h3>
+              <p class="team_name_2">Diseñador de Productos</p>
+              <ul class="iconos__list">
+                <li class="list__iconos">
+                  <svg class="iconos" width="20px" height="20px">
+                    <use
+                      href="./imagen/iconos/symbol-defs.svg#icon-facebook"
+                    ></use>
+                  </svg>
+                </li>
+                <li class="list__iconos">
+                  <svg class="iconos" width="20px" height="20px">
+                    <use
+                      href="./imagen/iconos/symbol-defs.svg#icon-instagram"
+                    ></use>
+                  </svg>
+                </li>
+                <li class="list__iconos">
+                  <svg class="iconos" width="20px" height="20px">
+                    <use
+                      href="./imagen/iconos/symbol-defs.svg#icon-linkedin"
+                    ></use>
+                  </svg>
+                </li>
+                <li class="list__iconos">
+                  <svg class="iconos" width="20px" height="20px">
+                    <use
+                      href="./imagen/iconos/symbol-defs.svg#icon-twitter"
+                    ></use>
+                  </svg>
+                </li>
+              </ul>
+            </li>
+            <li class="team__box" width="270px">
+              <img
+                src="./imagen/carlas_palacio.jpg"
+                alt="carla palacio"
+                width="270"
+              />
+              <h3 class="team_name">Carlas Palacio</h3>
+              <p class="team_name_2">desarrolladora frontend</p>
+              <ul class="iconos__list">
+                <li class="list__iconos">
+                  <svg class="iconos" width="20px" height="20px">
+                    <use
+                      href="./imagen/iconos/symbol-defs.svg#icon-facebook"
+                    ></use>
+                  </svg>
+                </li>
+                <li class="list__iconos">
+                  <svg class="iconos" width="20px" height="20px">
+                    <use
+                      href="./imagen/iconos/symbol-defs.svg#icon-instagram"
+                    ></use>
+                  </svg>
+                </li>
+                <li class="list__iconos">
+                  <svg class="iconos" width="20px" height="20px">
+                    <use
+                      href="./imagen/iconos/symbol-defs.svg#icon-linkedin"
+                    ></use>
+                  </svg>
+                </li>
+                <li class="list__iconos">
+                  <svg class="iconos" width="20px" height="20px">
+                    <use
+                      href="./imagen/iconos/symbol-defs.svg#icon-twitter"
+                    ></use>
+                  </svg>
+                </li>
+              </ul>
+            </li>
+            <li class="team__box" width="270px" height="368px">
+              <img src="./imagen/Mario.jpg" alt="mario dorado" width="270" />
+              <h3 class="team_name">Mario Dorado</h3>
+              <p class="team_name_2">marketing</p>
+              <ul class="iconos__list">
+                <li class="list__iconos">
+                  <svg class="iconos" width="20px" height="20px">
+                    <use
+                      href="./imagen/iconos/symbol-defs.svg#icon-facebook"
+                    ></use>
+                  </svg>
+                </li>
+                <li class="list__iconos">
+                  <svg class="iconos" width="20px" height="20px">
+                    <use
+                      href="./imagen/iconos/symbol-defs.svg#icon-instagram"
+                    ></use>
+                  </svg>
+                </li>
+                <li class="list__iconos">
+                  <svg class="iconos" width="20px" height="20px">
+                    <use
+                      href="./imagen/iconos/symbol-defs.svg#icon-linkedin"
+                    ></use>
+                  </svg>
+                </li>
+                <li class="list__iconos">
+                  <svg class="iconos" width="20px" height="20px">
+                    <use
+                      href="./imagen/iconos/symbol-defs.svg#icon-twitter"
+                    ></use>
+                  </svg>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section >
+        <div class="container">
+        <h3 class="title__5">Clientes Regulares</h3>
+        <ul class="list_img section5">
+          <li class="list__img_5"><svg class="icono_sec3" >
+            <use href="./imagen/iconos/symbol-defs.svg#icon-Logo"></use>
+          </svg></li>
+          <li class="list__img_5"><svg class="icono_sec3" >
+            <use href="./imagen/iconos/symbol-defs.svg#icon-Logo-1"></use>
+          </svg></li>
+          <li class="list__img_5"><svg class="icono_sec3" >
+            <use href="./imagen/iconos/symbol-defs.svg#icon-Logo-2"></use>
+          </svg></li>
+          <li class="list__img_5"><svg class="icono_sec3" >
+            <use href="./imagen/iconos/symbol-defs.svg#icon-Logo-3"></use>
+          </svg></li>
+          <li class="list__img_5"><svg class="icono_sec3" >
+            <use href="./imagen/iconos/symbol-defs.svg#icon-Logo-4"></use>
+          </svg></li>
+          <li class="list__img_5"><svg class="icono_sec3" >
+            <use href="./imagen/iconos/symbol-defs.svg#icon-Logo-5"></use>
+          </svg></li>
+        </div>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="foter_portafolio">
+      <div class="container">
+        <div class="container flex-container">
+          <address>
+            <a href="#" class="color__title">WebStudio</a>
+            <ul>
+              <li class="contacts__footer">
+                <a class="address_color" href="https://goo.gl/maps/MqcLZkt5R4HPUiu16"
+                target="_blank"
+                rel="noopener nofollow noreferrer">Calz. Ticomán 500, Ciudad de<br> México, CDMX, México </a>
+              </li>
+              <li class="text-color__contacto">
+                <a href="mailto:info@example.com" class="text-color__contacto">info@example.com </a>
+              </li>
+              <li class="text-color__contacto">
+                <a href="tel:+525555296000" class="text-color__contacto">+52 55 5529 6000 </a>
+              </li>
+            </ul>
+            
+          </address>
+          <div class="container__footer__redes">
+            <h3 class="title-6">ENCUENTRENOS EN</h3>
+            <ul class="iconos-6">
+            <li class="list_iconos_red"><svg class="iconos_red" width="20px" height="20px">
+              <use href="./imagen/iconos/symbol-defs.svg#icon-instagram"></use>
+            </svg></li>
+            <li class="list_iconos_red"><svg class="iconos_red" width="20px" height="20px">
+              <use href="./imagen/iconos/symbol-defs.svg#icon-twitter" ></use>
+            </svg></li>
+            <li class="list_iconos_red"><svg class="iconos_red" width="20px" height="20px">
+              <use href="./imagen/iconos/symbol-defs.svg#icon-facebook" ></use>
+            </svg></li>
+            <li class="list_iconos_red"><svg class="iconos_red" width="20px" height="20px">
+              <use href="./imagen/iconos/symbol-defs.svg#icon-linkedin" ></use>
+            </svg></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/modal.js"></script>
+    hola
+  </body>
+  </html>
+  
