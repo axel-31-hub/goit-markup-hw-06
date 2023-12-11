@@ -17,8 +17,48 @@
   </head>
   <div class="backdrop is-hidden" data-modal> <div class="modal"> <svg data-modal-close class="close-black" width="32px" height="32px"><use 
     href="./imagen/iconos/symbol-defs.svg#icon-close-black-18dp-2-1-1"
-  ></use></svg>      
-  </div></div>
+  ></use></svg> 
+  <div class="formulario__modal">
+    <h3 class="titulo__formulario">Deje sus datos, nos contactaremos con usted</h3>
+<div class="entrada__formulario">
+    <form class="formulario__modal2" name="signup_form" autocomplete="on" novalidate>
+      <label class="validacion__formulario">
+        Nombre
+        <input type="text" name="Nombre"> <svg class="svg__modal" class="form__input" width="18px" height="18px"><use 
+          href="./imagen/iconos/symbol-defs(1).svg#icon-persona-negra-18dp-1" class="img__input"
+        ></use></svg>
+      </label>
+      <label class="validacion__formulario">
+        Teléfono
+        <input type="tel" name="phone" /><svg class="svg__modal"  width="32px" height="32px"><use 
+          href="./imagen/iconos/symbol-defs(1).svg#icon-telfono-negro-18dp-1"  class="img__input"
+        ></use></svg>
+      </label>
+      <label class="validacion__formulario">
+        E-mail
+        <input type="email" name="email" /><svg class="svg__modal" width="32px" height="32px"><use 
+          href="./imagen/iconos/symbol-defs(1).svg#icon-correo-electrnico-negro-18dp-1" class="img__input"
+        ></use></svg>
+      </label>
+      <label class="validacion__formulario">
+        Comentarios
+        <textarea name="feedback" rows="5" placeholder="Introduzca el texto" class="textarea__text"></textarea>
+      </label>
+  </form> </div>
+      <div > 
+        <form>
+          <label class="checkbox__modal">
+        <input  type="checkbox" name="hobby" value="Estoy de acuerdo con el boletín 
+        informativo y acepto los Términos y Condiciones" checked />
+        Estoy de acuerdo con el boletín informativo y acepto los Términos y Condiciones
+      </label>
+    </div>
+    </label>
+    <div class="validacion__button"><button type="submit" class="button__formulario">Enviar</button></div>
+    
+  </div>     
+  </div>
+</div>
   <body>
     <header class="container border_header">
       <div class="container menu">
@@ -345,11 +385,21 @@
             </svg></li>
             </ul>
           </div>
+          <div class="box_container" >
+            <spam class="text_boletin" >SUSCRÍBASE AL BOLETÌN INFORMATIVO</spam>
+          <form>
+            <label for="Correo electrónico"></label>
+              <input  type="email" class="box_email" id="email" placeholder="Correo electrónico" autofocus />
+            </div>
+        <div class="button__boletin"><svg class="icon_enviar" width="24px" height="24px">
+          <use href="./imagen/iconos/symbol-defs(1).svg#icon-enviar-cono"></use>
+        </svg><button class="button__suscribase" type="submit" >Suscríbase</button>   
         </div>
+    </div></form>
       </div>
+        </div>
     </footer>
     <script src="./js/modal.js"></script>
-    hola
   </body>
   </html>
   
