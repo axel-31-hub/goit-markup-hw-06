@@ -711,7 +711,6 @@ body {
   margin: auto;
 }
 .button__hero:hover {
-  background: var(--colo--web--blue);
   cursor: pointer;
 }
 .button__hero:active {
@@ -729,7 +728,7 @@ body {
   display: flex;
   justify-content: center;
   align-content: center;
-  top: 0;
+  top: -100px;
   left: 0;
   background: rgba(0, 0, 0, 0.5);
 }
@@ -759,8 +758,9 @@ body {
 .entrada__formulario {
   display: flex;
   flex-direction: column;
-  padding: 12px;
+  padding: 30px;
   padding-top: 25px;
+  padding-bottom: 20px;
 }
 .formulario__modal2 {
   display: flex;
@@ -792,7 +792,7 @@ form {
 }
 .checkbox__modal {
   display: flex;
-  padding-left: 65px;
+  padding-left: 50px;
   width: 423px;
   height: 24px;
   color: #757575;
